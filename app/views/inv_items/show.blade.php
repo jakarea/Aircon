@@ -1,0 +1,1 @@
+C:\xampp\htdocs\aircon\app/views/inv_items/show.blade.php

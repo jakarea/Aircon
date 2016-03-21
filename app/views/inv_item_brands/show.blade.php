@@ -1,0 +1,1 @@
+C:\xampp\htdocs\shoppingmol\app/views/inv_item_brands/show.blade.php

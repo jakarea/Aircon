@@ -1,0 +1,1 @@
+C:\xampp\htdocs\shoppingmol\app/views/auths/create.blade.php

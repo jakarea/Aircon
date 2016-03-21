@@ -1,0 +1,119 @@
+.product {
+  width: 100%;
+  margin-left: 8px;
+  display: inline;
+  background: #FFFFFF url(http://static-image.bdstall.com/dot_black.jpg) bottom repeat-x;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.productThumb {
+  width: 100px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.productDesc {
+  width: 465px;
+  overflow: hidden;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+
+}
+
+.productTitle {
+  margin: 13px 0px 10px 0px;
+  font-size: 16px;
+  color: #F5E862;
+}
+h3, .panel_head {
+  font-size: 15px;
+  color: #268b13;
+  padding-bottom: 12px;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+.smlGapBottom {
+  padding-bottom: 5px;
+}
+.productRow {
+  color: #5F7084;
+  float: left;
+}
+.productRow {
+  width: 430px;
+  overflow: hidden;
+}
+.productRow label, .prices, .home_prices {
+  float: left;
+}
+productRow label {
+  margin-right: 10px;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.productRow span {
+  padding-left: 3px;
+}
+.productRow span, .productRow label, .prices, .home_prices {
+  float: left;
+}
+.home_prices {
+  width: 70px;
+  padding: 17px 21px;
+  display: inline;
+  text-align: center;
+  float: left;
+}
+.price {
+  color: #DC3D3D;
+  font-size: 14px;
+  color: #DC3D3D;
+}
+.priceUpdate {
+  color: #5F7084;
+  font-size: 11px;
+  clear: both;
+}
+
+input#bigbutton {
+width:300px;
+background: #FE980F; /*the colour of the button*/
+padding: 8px 14px 10px; /*apply some padding inside the button*/
+border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+/*style the text*/
+font-size:2.5em;
+font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+letter-spacing:.1em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+color: #fff;
+/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+height: 56px;
+}
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#bigbutton:hover, input#bigbutton:focus {
+color:#dfe7ea;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}

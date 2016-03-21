@@ -1,0 +1,76 @@
+.tse-form .table-form{
+	input.date{
+		// width: 100px;
+	}
+	th.small, td.small{
+		width: 60px;
+
+		input{
+			text-align: center;
+		}
+	}
+
+	td.full{
+		input, select{
+			width: 100%;
+		}
+		input{
+			text-align: left;
+		}
+	}
+
+	td{
+		text-align: center;
+	}
+
+
+	tr.thead{
+		background: rgb(0, 67, 100);
+		color: #fff;
+
+		th{
+			padding: 5px !important;
+			text-align: center;
+		}
+	}
+
+	th.country, td.country{
+		width: 150px;
+	}
+
+	td[data-readonly]{
+		background: #EFF0EA;
+	}
+	
+	input[type=text]{
+		//width: 100%;
+		margin: 0;
+		padding: 2px 5px !important;
+		border: none;
+		outline: none;
+
+		&:hover, &:focus, &:active{
+			border: none;
+			outline: none;
+		}
+	}
+
+	.form-group{
+		margin: 0;
+
+		.select2-container{
+			width: 100%;
+		}
+	}
+
+	input[type=text].large{width: 200px; }
+	input[type=text].big{width: 150px; }
+	input[type=text].small{width: 100px; }
+}
+.table.table-form > tfoot > tr > th, 
+.table.table-form > thead > tr > td, 
+.table.table-form > tbody > tr > td, 
+.table.table-form > tfoot > tr > td{
+	margin: 0;
+	padding: 0 0 !important;
+}

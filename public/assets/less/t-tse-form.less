@@ -1,0 +1,172 @@
+.tse-form {
+	padding: 0;
+	background: rgb(217, 236, 255);
+	border-bottom: 10px solid rgb(0, 67, 100);
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgb(202, 183, 183);
+
+	label sup{
+		color: red;
+	}
+
+	h1{
+		background: rgb(0, 67, 100);
+		color: #fff;
+		padding: 10px;
+		font-size: 20px;
+		text-align: center;
+		font-weight: 700;
+		font-style: italic;
+		margin: 0 0 10px 0;
+		border-radius: 10px 10px 0 0;
+	}
+
+	input[type=text]:focus,
+	textarea:focus,
+	select:focus,
+	{
+		border: 2px solid #0097cf;
+	}
+
+	.main-form{
+		padding: 10px 30px;
+
+		.form-group{
+			margin-bottom: 5px;
+		}
+
+		input, select{
+			height: 30px;
+		}
+		
+		input[type=text], 
+		input[type=password], 
+		select, 
+		input[type=date], 
+		textarea{
+			width: 250px;
+		}
+
+		.small-inputs{
+
+			input[type=text], 
+			input[type=password], 
+			select, 
+			input[type=date], 
+			textarea{
+				width: 173px;
+			}
+		}
+
+		input.small-input,
+		select.small-input{
+				width: 100px;
+		}
+
+		input[readonly=true]{
+			background: rgb(19, 255, 228);
+			font-weight: bold;
+		}
+		
+
+		label {
+			text-transform: capitalize;
+		}
+
+		.icheckbox_minimal, .iradio_minimal{
+			margin-right: 10px;
+		}
+
+		.hide-on-present-status.inactive{
+			display: block;
+		}
+		.hide-on-present-status{
+			display: none;
+		}
+
+		input.amount {
+			width: 120px;
+		}
+		input.measurement {
+			width: 65px;
+		}
+		input#opening_qty{
+			width: 75px;		
+		}
+		input#reorder_qty{
+			width: 75px;		
+		}
+		input#max_order_qty{
+			width: 75px;		
+		}
+		input#min_order_qty{
+			width: 75px;		
+		}
+		input#from_date{
+			width: 100px !important;		
+		}
+		input#to_date{
+			width: 100px !important;		
+		}
+		input.weight {
+			width: 100px;
+		}
+		.select2-container{
+			width: 98%;
+		}
+		input#opening_balance_date{
+			width: 100px !important;
+		}
+		input#total_length{
+		width: 80px !important;
+		}
+
+	}
+
+	.nav > li > a, .nav > li > a {
+		background-color: #fff;
+		color: #000;
+		font-weight: bold;
+	}
+	.nav > li.active > a, .nav > li.active > a {
+		background-color: #004364;
+		color: #fff;
+		font-weight: bold;
+
+		&:after {
+			content: "";
+			position: relative;
+			background: red;
+			color: red;
+			height: 10px;
+			width: 10px;
+			display: inline-block;
+			background: red;
+			border-radius: 10px;
+		}
+	}
+
+}
+input[type=radio], .radio-inline input[type=radio] {
+position: absolute;
+margin-left: -20px;
+margin-top: 5px;
+}
+
+#to_date, #from_date 
+{
+	input[type=text]{
+		width:125px;
+	}
+}
+
+//test
+.twitter-typeahead{
+	display: block !important;
+}
+
+.item-typeahead {
+	// .item-name{
+	// 	position: static !important; //TODO: FIX : dont ever do this again
+	// }
+}
